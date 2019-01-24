@@ -9,7 +9,7 @@ VirtualEnvPath="$BasePath/virtualenv"
 
 if [[ ! -e "${VirtualEnvPath}" ]]; then
     echo "-> Setting up virtualenv"
-    virtualenv ${VirtualEnvPath}
+    virtualenv --python=python3.6 ${VirtualEnvPath}
 fi
 
 echo "-> Installing requirements into ${VirtualEnvPath}"
