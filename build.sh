@@ -18,3 +18,7 @@ echo "-> Installing requirements into ${VirtualEnvPath}"
 
 echo "-> Done"
 
+cp -r src build/
+cd build
+make all
+rm -rf src

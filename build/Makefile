@@ -4,6 +4,7 @@
 #
 
 PROJECT_NAME?=teamtry
+REPOSITORY?=outlookmobile.azurecr.io/$(PROJECT_NAME)
 TAG?=latest
 
 OK_COLOR=\033[32;01m
